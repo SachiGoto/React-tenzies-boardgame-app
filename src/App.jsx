@@ -35,7 +35,10 @@ function App() {
  let numsArray = nums.map((num)=>{
  
   return(
+    
+     
       <Die key={num.id} value={num.value} isHeld={num.isHeld} holdDice={()=> holdDice(num.id) }/>
+    
   )
  })
 
@@ -69,6 +72,8 @@ function App() {
     <main className="App">
 
  <div className="bigContainer">
+ <h1>Tenzies!</h1>
+      <p>Roll until all dice are the same. Click each die to freeze it at its current value between rolls. </p>
 
  <div className = "die-container">
 

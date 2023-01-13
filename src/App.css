@@ -68,8 +68,8 @@ align-items:center;
    color:white;
    border-radius:3px;
    border:none;
-   width:90px;
-   height:35px;
+   width: 110px;
+   height: 50px;
    padding:10px 20px;
    font-size:1.2rem;
 
@@ -79,6 +79,6 @@ align-items:center;
   outline:none;
 }
 
-.btn{
+.btn:active{
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
