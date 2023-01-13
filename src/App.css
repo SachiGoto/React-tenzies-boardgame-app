@@ -26,12 +26,14 @@
 
 .bigContainer{
   width: 85vw;
-    height: 90vw;
+    height: 70vh;
   background: #F5F5F5;
   display:flex;
   justify-content:center;
   align-items:center;
   flex-direction:column;
+  max-width: 1200px;
+    max-height: 850px;
 }
 
 
